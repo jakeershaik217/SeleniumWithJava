@@ -78,7 +78,7 @@ public class ChromeDriversCap extends GlobalDriverCap{
 		
 		}
 		
-		
+		webdriver=new ChromeDriver(Options);
 		
 
 	}
@@ -108,7 +108,7 @@ public class ChromeDriversCap extends GlobalDriverCap{
 		OptionsAdd.add("version");
 
 		Options = new ChromeOptions();
-
+ 
 		// adding extension file to chrome
 		// Options.addExtensions(new File("/path/to/extension.crx"));
 

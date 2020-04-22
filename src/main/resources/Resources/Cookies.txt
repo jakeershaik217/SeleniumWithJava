@@ -1,0 +1,44 @@
+{
+"Cookies":[{
+"domain" : ".facebook.com",
+"name" :"datr",
+"value" :"NwOgXm9yv74DfpEWC3CdsPcM",
+"path" : "/" } ,
+{
+"domain" : ".facebook.com",
+"name" :"c_user",
+"value" :"100003816108643",
+"path" : "/" } ,
+{
+"domain" : ".facebook.com",
+"name" :"spin",
+"value" :"r.1002024040_b.trunk_t.1587544895_s.1_v.2_",
+"path" : "/" } ,
+{
+"domain" : ".facebook.com",
+"name" :"xs",
+"value" :"121%3ALONGkLLIMv3ANg%3A2%3A1587544894%3A19107%3A5680",
+"path" : "/" } ,
+{
+"domain" : ".facebook.com",
+"name" :"presence",
+"value" :"EDvF3EtimeF1587544901EuserFA21B03816108643A2EstateFDutF1587544901648CEchF_7bCC",
+"path" : "/" } ,
+{
+"domain" : ".facebook.com",
+"name" :"fr",
+"value" :"1sGpIzrUtNYuQQte7.AWWho56YBCBaq_M3yVPilJhZWQs.BeoAM3.gc.F6g.0.0.BeoANF.AWXV6Hon",
+"path" : "/" } ,
+
+{
+"domain" : ".facebook.com",
+"name" :"wd",
+"value" :"1366x613",
+"path" : "/" } ,
+{
+"domain" : ".facebook.com",
+"name" :"sb",
+"value" :"NwOgXry1lWWn_SZ09doVnUXZ",
+"path" : "/" }
+
+]}

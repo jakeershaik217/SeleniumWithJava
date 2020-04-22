@@ -29,7 +29,13 @@ dependencies {
     
     // https://mvnrepository.com/artifact/org.testng/testng
      compile group: 'org.testng', name: 'testng', version: '7.0.0'
+     
+     // https://mvnrepository.com/artifact/org.json/json
+       compile group: 'org.json', name: 'json', version: '20090211'
+     
     
+    // https://mvnrepository.com/artifact/io.rest-assured/json-path
+    compile group: 'io.rest-assured', name: 'json-path', version: '3.0.0'
     
     
     
