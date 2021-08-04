@@ -16,6 +16,7 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.logging.LogType;
@@ -65,11 +66,14 @@ public class ChromeDriversCap extends GlobalDriverCap{
 
 		switch(BrowserConfigurations) {
 		
-		case "chromeoptions":setChromeOptions();
+		case "chromeoptions":createChromeOptions();
+		                     setChromeOptions();
 		                     break;
-		case "chromecap"    :setCapabilities();
+		case "chromecap"    :createChromeOptions();
+		                     setCapabilities();
 		                     break;
-		default             :setChromeOptions(); 
+		default             :createChromeOptions();
+		                     setChromeOptions(); 
 		                     setCapabilities();
 		                     break;
 		
@@ -81,6 +85,12 @@ public class ChromeDriversCap extends GlobalDriverCap{
 		webdriver=new ChromeDriver(Options);
 		
 
+	}
+	
+	public void createChromeOptions() {
+		
+		
+		Options = new ChromeOptions();
 	}
 	
 	
@@ -106,8 +116,7 @@ public class ChromeDriversCap extends GlobalDriverCap{
 		OptionsAdd.add("incognito");
 		OptionsAdd.add("--disable-device-discovery-notifications");
 		OptionsAdd.add("version");
-
-		Options = new ChromeOptions();
+		
  
 		// adding extension file to chrome
 		// Options.addExtensions(new File("/path/to/extension.crx"));

@@ -17,5 +17,6 @@ public class GlobalDriverCap {
 	protected FirefoxProfile FireFoxprofile;
 	protected FirefoxOptions fireFoxoptions;
 	protected DesiredCapabilities ChromeCap;
+	protected Set<Cookie> browserCookies;
 
 }
